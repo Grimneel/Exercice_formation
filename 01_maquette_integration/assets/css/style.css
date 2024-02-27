@@ -1,0 +1,183 @@
+/************************* RESET ***************************/
+
+/************************* GENERAL ***************************/
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-size: 62.5%;
+}
+body {
+   background-color: #191919;
+   width: 100%;
+   /* height: 2000px; */
+}
+
+img {
+    width: 650px;
+    height: 400px;
+}
+
+video {
+    width: 300px;
+    height: 200px;
+}
+
+title {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/************************* NAV ***************************/
+
+nav {
+    background-color: #101010;
+}
+
+nav div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logoNav {
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+}
+
+nav div{
+    justify-content: flex-end;
+    align-content: center;
+
+}
+
+nav div a{
+    /* background-color: black; */
+    color: #8B8C8C;
+    padding: 0.6rem;
+    /* margin: 0 10px; */
+    border-radius: 1rem;
+}
+
+/************************* HEADER ***************************/
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header div a {
+    background-color: black;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+header div a:first-child {
+    background-image: url(assets/img/s1b1.jpeg);
+    width: 500px;
+    height: 100px;
+}
+
+header div a:nth-child(2) {
+    background-image: url(assets/img/s1b2.jpeg);
+    width: 500px;
+    height: 100px;
+}
+
+header div a:last-child {
+    background-image: url(assets/img/s1b3.jpeg);
+    width: 500px;
+    height: 100px;
+}
+
+
+/************************* MAIN ***************************/
+main {
+    width: 100%;
+}
+
+main section, main div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/** Section 1 **/
+.section1 {
+    margin: 50px 0;
+}
+
+.section1 div:first-child {
+    justify-content: center;
+    text-align: center;
+}
+
+.section1 div:last-child img{
+    align-self: flex-end;
+}
+
+.section1 div:first-child {
+    width: 50%;
+    padding: 20px;
+}
+.section1 p:nth-child(2) {
+    color: #fff;
+}
+
+
+.section1 div h1:first-child {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+audio {
+    
+}
+
+.section1 div p:nth-child(2) {
+    text-align: center;
+}
+
+/** Section 2 **/
+video{
+    background-color: black;
+    height: 250px;
+}
+
+.section2 div div :first-child, .section2 div div :last-child {
+    width: 50%;
+}
+/************************* FOOTER ***************************/
+footer {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer div a {
+    width: 33.33%;
+    text-align: center;
+    color: #fff;
+    padding: 0.6rem;
+}
+
+footer div a:first-child, footer div a:nth-child(2) {
+    border-right: solid 2px #8B8C8C;
+}
+
+
+
+
+
+
+
+
+
