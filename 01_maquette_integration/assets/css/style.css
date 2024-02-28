@@ -1,4 +1,5 @@
 /************************* RESET ***************************/
+@import url(reset.css);
 
 /************************* GENERAL ***************************/
 *{
@@ -44,7 +45,7 @@ nav div:last-child{
 #logoNav {
     width: 100px;
     height: 70px;
-    margin: 10px;
+    margin: 30px 10px 0 10px;
 }
 
 nav div{
@@ -78,20 +79,23 @@ header div a {
 
 header div a:first-child {
     background-image: url(assets/img/s1b1.jpeg);
-    width: 500px;
-    height: 100px;
+    width: 100px;
+    height: 20px;
+    line-height: 10px;
 }
 
 header div a:nth-child(2) {
     background-image: url(assets/img/s1b2.jpeg);
-    width: 500px;
-    height: 100px;
+    width: 100px;
+    height: 20px;
+    line-height: 10px;
 }
 
 header div a:last-child {
     background-image: url(assets/img/s1b3.jpeg);
-    width: 500px;
-    height: 100px;
+    width: 100px;
+    height: 20px;
+    line-height: 10px;
 }
 
 
@@ -166,11 +170,11 @@ footer div a {
     width: 33.33%;
     text-align: center;
     color: #fff;
-    padding: 0.6rem;
+    padding: 0.45rem;
 }
 
 footer div a:first-child, footer div a:nth-child(2) {
-    border-right: solid 2px #8B8C8C;
+    border-right: solid 1px #8B8C8C;
 }
 
 
