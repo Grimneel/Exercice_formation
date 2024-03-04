@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Style générale de la page */
+
+
+:root {
+    font-size: 62.25%;
+}
+
+* {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #A24F1C;
+    font-size: 2rem !important;
+}
+
+/**************** STYLE POUR MOBILE max-width:767.99px ****************/    
+    /* Style pour le HEADER */
+    header {
+        width: 100%;
+    }
+
+    header > div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    header > div img {
+        width: 10%;
+        align-items: center;
+    }
+
+    header > nav > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header > nav div a {
+        background-color: #E2E2E2;
+        text-align: center;
+        color: black;
+        padding: 1.3rem;
+        width: 100%;
+    }
+
+    header div a:nth-child(2) {
+        margin: 10px 0;
+    }
+    /* Style pour le MAIN */
+    main {
+        margin-top: 1.5rem;
+    }
+
+    main section div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main section div:nth-child(3) p {
+        width: 100%;
+        padding: 1.2rem;
+        text-align: center;
+    }
+
+    main section div:nth-child(2) img {
+        padding: 1.2rem;
+    }
+
+    /* Style pour le FOOTER */
+
+    footer div p {
+        text-align: center;
+        padding: 1.3rem;
+        border-top: solid 2px lightgrey;
+        margin-top: 1.5rem;
+    }
+
+/**************** STYLE POUR TABLETTE min-width:768px and max-width:1199.99px ****************/    
+
+@media screen and (min-width:768px) and (max-width:1199.99px) {
+    header > div {
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+
+    header > nav div a {
+        background-color: #E2E2E2;
+        text-align: center;
+        color: black;
+        /* padding: 1.3rem; */
+        width: 33.33%;
+    }
+}
+
+/**************** STYLE POUR TABLETTE min-width:1200px ****************/    
+
+@media screen and (min-width:1200px) {
+    
+}
