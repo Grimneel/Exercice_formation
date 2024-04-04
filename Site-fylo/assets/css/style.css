@@ -1,0 +1,50 @@
+/* ************************ Style générale de ma page ************************ */
+*{
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-family : "Raleway", sans-serif;"
+    
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    width: 80%;
+}
+
+img {
+    width: 400px;
+    margin-left: 0 0 5rem 5rem;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+/* ************************ Style du FOOTER ************************ */
+
+
+
+/* ************************ Style du MAIN ************************ */
+
+.section2 {
+    width: 100%;
+    background-color: #F9F8FE;
+}
+
+article {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section2 :nth-child(2) :nth-child(3) {
+    background-color: ;
+}
+
+/* ************************ Style du FOOTER ************************ */
+
+footer div:first-child {
+    
+    background-color: #575989;
+}
