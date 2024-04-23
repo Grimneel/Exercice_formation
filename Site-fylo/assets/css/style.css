@@ -2,8 +2,8 @@
 *{
     box-sizing: border-box;
     text-decoration: none !important;
-    font-family : "Raleway", sans-serif;"
-    
+    font-family : "Raleway", sans-serif;
+    list-style: none !important;
 }
 
 :root {
@@ -12,19 +12,22 @@
 
 body {
     width: 80%;
-}
-
-img {
-    width: 400px;
-    margin-left: 0 0 5rem 5rem;
+    border: solid #000 1px;
 }
 
 h2 {
     font-weight: bolder;
 }
 
-/* ************************ Style du FOOTER ************************ */
+button {
+    color: #fff !important;
+}
 
+
+/* ************************ Style du HEADER ************************ */
+.logo {
+    width: 80px;
+}
 
 
 /* ************************ Style du MAIN ************************ */
@@ -34,17 +37,46 @@ h2 {
     background-color: #F9F8FE;
 }
 
+.illustration {
+    width: 300px;
+    margin-left: 0 0 5rem 5rem;
+}
+
+
 article {
     background-color: #fff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.section2 :nth-child(2) :nth-child(3) {
-    background-color: ;
+
+.profilPicture {
+    width: 5rem;
+    height: 4rem;
+    border-radius: 50%;
+    
 }
 
 /* ************************ Style du FOOTER ************************ */
 
-footer div:first-child {
-    
+.footer1 {
     background-color: #575989;
+    color: #fff;
+}
+
+.footer1 p {
+    width: 70%;
+}
+
+.footer2 {
+    background-color: #07043B;
+    color: #fff;
+}
+
+@media screen and (max-width:560px) {
+    .navbar {
+
+    }
+    
+    .section2 {
+        width: 100%;
+    }
 }
