@@ -12,7 +12,7 @@
 
 body {
     width: 80%;
-    border: solid #000 1px;
+    /* border: solid #000 1px; */
 }
 
 h2 {
@@ -79,4 +79,11 @@ article {
     .section2 {
         width: 100%;
     }
+}
+
+i {
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 50%;
+    text-align: center;
 }
